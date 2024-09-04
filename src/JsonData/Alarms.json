@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Critical",
+        "value": 20,
+        "fill": "#D64444"
+    },
+    {
+        "name": "Major",
+        "value": 8,
+        "fill": "#F4BE37"
+    },
+    {
+        "name": "Minor",
+        "value": 6,
+        "fill": "#5388D8"
+    }
+]

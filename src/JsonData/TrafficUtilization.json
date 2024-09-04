@@ -1,0 +1,30 @@
+[
+    {
+        "day": "Sunday",
+        "trafficUtilization": 65
+    },
+    {
+        "day": "Monday",
+        "trafficUtilization": 45
+    },
+    {
+        "day": "Tuesday",
+        "trafficUtilization": 35
+    },
+    {
+        "day": "Wednesday",
+        "trafficUtilization": 52
+    },
+    {
+        "day": "Thursday",
+        "trafficUtilization": 60
+    },
+    {
+        "day": "Friday",
+        "trafficUtilization": 55
+    },
+    {
+        "day": "Saturday",
+        "trafficUtilization": 40
+    }
+]

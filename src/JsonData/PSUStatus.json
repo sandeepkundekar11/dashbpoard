@@ -1,0 +1,26 @@
+[
+    {
+        "cardID": "PSU-1",
+        "critical": 2,
+        "minor": 8,
+        "major": 5
+    },
+    {
+        "cardID": "PSU-2",
+        "critical": 3,
+        "minor": 4,
+        "major": 7
+    },
+    {
+        "cardID": "PSU-3",
+        "critical": 4,
+        "minor": 6,
+        "major": 4
+    },
+    {
+        "cardID": "PSU-4",
+        "critical": 1,
+        "minor": 7,
+        "major": 2
+    }
+]

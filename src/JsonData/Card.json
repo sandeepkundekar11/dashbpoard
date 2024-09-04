@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Alarm",
+        "info": 38
+    },
+    {
+        "title": "Card Availability",
+        "info": 27
+    },
+    {
+        "title": "PSU Numbers",
+        "info": 4
+    },
+    {
+        "title": "Total Channels",
+        "info": 80
+    },
+    {
+        "title": "Total Capacity",
+        "info": "8Tbps"
+    }
+]

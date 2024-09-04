@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "IBM Plex Sans", system-ui, -apple-system, BlinkMacSystemFont,
+    ".SFNSText-Regular", sans-serif !important;
+}
+.sidebarFont {
+  font-family: "IBM Plex Sans", system-ui, -apple-system, BlinkMacSystemFont,
+    ".SFNSText-Regular", sans-serif !important;
+  font-size: 14px;
+  line-height: 20px;
+  font-style: normal;
+  color: rgb(244, 244, 244) !important;
+  font-weight: 600;
+}
+.tooSmallFont {
+  font-family: "IBM Plex Sans", system-ui, -apple-system, BlinkMacSystemFont,
+    ".SFNSText-Regular", sans-serif !important;
+  font-size: 12px;
+  line-height: 14px;
+  font-style: normal;
+  color: rgb(27, 39, 51) !important;
+  font-weight: 400;
+}
+.HeadingFont {
+  font-family: "IBM Plex Sans", system-ui, -apple-system, BlinkMacSystemFont,
+    ".SFNSText-Regular", sans-serif !important;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 32px;
+  color: rgb(27, 39, 51) !important;
+  font-size: 22px;
+}
+.cardDataFont {
+  font-family: "IBM Plex Sans", system-ui, -apple-system, BlinkMacSystemFont,
+    ".SFNSText-Regular", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: rgb(27, 39, 51) !important;
+  font-size: 38px;
+  line-height: 44px;
+}
+.mediumFont {
+  font-family: "IBM Plex Sans", system-ui, -apple-system, BlinkMacSystemFont,
+    ".SFNSText-Regular", sans-serif !important;
+  font-size: 16px;
+  color: rgb(27, 39, 51);
+  font-weight: 600;
+  font-style: normal;
+  line-height: 18px;
+}
+
+.bigFont {
+  font-family: "IBM Plex Sans", system-ui, -apple-system, BlinkMacSystemFont,
+    ".SFNSText-Regular", sans-serif !important;
+  font-size: 22px;
+  color: rgb(27, 39, 51) !important;
+  font-weight: 500;
+  font-style: normal;
+  line-height: normal;
+}
+.login-bg {
+  background: url("https://i.pinimg.com/564x/ac/01/44/ac014446e4c62e078975a3b603f67938.jpg")
+    no-repeat center center/cover;
+}
+.loginSection {
+  padding: 2rem;
+  width: 500px;
+  height: 500px;
+}
+.navigationBar {
+  border-bottom: solid rgba(225, 225, 225, 0.59) 1px;
+}
+
+.SideBar > ul > li:hover {
+  cursor: pointer;
+  background-color: rgba(72, 72, 72, 0.384);
+}
+
+.SelectedRoute {
+  cursor: pointer;
+  border-left: solid rgb(0, 0, 224) 3px;
+  background-color: rgb(41, 41, 41);
+}
+
+/* hide sidebar extended bar */
+.SideBar {
+  width: 48px;
+  transition: width 0.2s linear;
+  overflow: hidden;
+}
+
+/* on hover showing sidebar extended bar */
+.SideBar:hover {
+  width: 300px;
+  transition: width 0.2s linear;
+}
+
+.box {
+  /* width: 460px; */
+  width: 30%;
+  height: 94px;
+}
+
+@media (max-width: 768px) {
+  .box {
+    width: 100%;
+    height: 94px;
+  }
+}
+
+.IBM-font {
+  font-family: "IBM Plex Sans", system-ui, -apple-system, BlinkMacSystemFont,
+    ".SFNSText-Regular", sans-serif !important;
+}
+
+/* styling the Charts */
+.ChartBox {
+  max-width: auto;
+  min-width: 30%;
+  height: 310px;
+}
+.PSU-Chart,
+.systemOnOffSummery {
+  max-width: auto;
+  min-width: 45.5%;
+  height: 310px;
+}

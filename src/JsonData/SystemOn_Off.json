@@ -1,0 +1,50 @@
+[
+    {
+        "month": "Jan",
+        "uptime": 100.0
+    },
+    {
+        "month": "Feb",
+        "uptime": 98.8
+    },
+    {
+        "month": "Mar",
+        "uptime": 90.9
+    },
+    {
+        "month": "Apr",
+        "uptime": 96.7
+    },
+    {
+        "month": "May",
+        "uptime": 99.8
+    },
+    {
+        "month": "Jun",
+        "uptime": 95.9
+    },
+    {
+        "month": "Jul",
+        "uptime": 99.7
+    },
+    {
+        "month": "Aug",
+        "uptime": 96.3
+    },
+    {
+        "month": "Sep",
+        "uptime": 99.9
+    },
+    {
+        "month": "Oct",
+        "uptime": 94.7
+    },
+    {
+        "month": "Nov",
+        "uptime": 99.8
+    },
+    {
+        "month": "Dec",
+        "uptime": 99.5
+    }
+]
